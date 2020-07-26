@@ -20,6 +20,7 @@ const color = muppet.color;
 const song = muppet.song;
 const job = muppet.job;
 const partner = muppet.partner;
+
 const k_muppet = {
   k_name: 'Kermit',
   k_color: 'green',
@@ -34,6 +35,8 @@ const k_muppet = {
   k_job: 'Host of The Muppet Show',
   k_partner: 'Miss Piggy'
 };
+
+const {song_2 ,song_4} = k_muppet.k_album.the_muppet_movie;
 
 // Strings
 
